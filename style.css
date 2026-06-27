@@ -1,0 +1,31 @@
+.container-fluid{
+    background-color: #4B1426;
+}
+.nav-text{
+    font-family: 'Lato', sans-serif;
+}
+
+#hero{
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+}
+.card-cover {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+#attractions .carousel-caption p {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem; 
+  font-weight: bold;   
+}
+
+#footer{
+    background-color: #4B1426;
+}
