@@ -4,7 +4,7 @@ A fictional luxury resort website set in Antarctica, built as a self-practice
 project while learning full-stack web development.
 
 ## 🌐 Live Demo
-[View on GitHub Pages](#) ← add your link here
+[View on GitHub Pages](https://nakul28062007.github.io/the-final-meridian-bootstrap-landing-page/)
 
 ## 🛠️ Built With
 - HTML5
