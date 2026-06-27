@@ -29,3 +29,55 @@
 #footer{
     background-color: #4B1426;
 }
+#pricing{
+  font-family: 'Lato', sans-serif !important;
+}
+
+.card{
+  min-height: 346px;
+}
+.card-cover::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.3), transparent);
+}
+
+.carousel-caption p{
+  font-family: 'Lato',sans-serif !important;
+  font-size: 2rem !important;
+  font-weight: 400 !important;
+}
+
+@media (max-width: 768px) {
+  #hero .text-center {
+    font-size: 2rem !important;
+  }
+
+  #hero .tagline{
+    font-size: 1.5rem !important;
+  }
+  .title-class {
+    top: 65% !important;
+  }
+
+  #check-in .border-end {
+    border-right: none !important;
+    border-bottom: 1px solid #dee2e6;
+  }
+  #check-in .flex-grow-1 {
+    width: 100%;
+  }
+
+}
